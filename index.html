@@ -2,15 +2,67 @@
   <head>
     <title>Chatbot</title>
     <style>
+      * {
+        font-family: system-ui;
+        font-weight: 100;
+      }
+
       .design {
-        height: 800px;
-        width: 800px;
+        height: 500px;
+        width: 700px;
         border: 1px solid black;
         margin: 100px auto;
+        padding: 50px;
+      }
+
+      .heading {
+        font-size: 50px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+      }
+
+      .para {
+        font-size: 30px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+      }
+
+      .button {
+        height: 40px;
+        width: 600px;
+        background-color: #4184e1;
+        border-radius: 50px;
+      }
+
+      #try {
+        padding-top: 10px;
+        text-align: center;
+        color: white;
+      }
+
+      .another-para {
+        font-size: 20px;
+      }
+
+      #line {
+        width: 60px;
+        border: 1px solid black;
       }
     </style>
   </head>
   <body>
-    <div class="design"></div>
+    <div class="design">
+      <h1 class="heading">Build your first chatbot in 10 minutes!</h1>
+      <p id="line"></p>
+      <p class="para">
+        Have a bot answering questions from customers on your website within 10
+        minutes of signing up for Chatbot
+      </p>
+      <nav class="button"><p id="try">TRY NOW -></p></nav>
+      <p class="another-para">
+        By clicking this try now you create an account and agree to our Terms
+        and conditions and Privacy Policy
+      </p>
+    </div>
   </body>
 </html>
